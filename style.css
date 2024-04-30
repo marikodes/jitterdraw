@@ -1,0 +1,143 @@
+html {
+  /*consistent bg details help: https://www.w3schools.com/css/tryit.asp?filename=trycss3_background_full*/
+  background: linear-gradient(to bottom right, DeepSkyBlue, MediumPurple) no-repeat center fixed;
+  background-size: cover;
+}
+
+#logo {
+  margin: auto;
+  /*width: 75%;
+  height: 25; */
+  text-align: center;
+}
+/*found the id that lets you style the p5 canvas*/
+
+#defaultCanvas0 {
+  margin: auto;
+  border-radius: 25px;
+  width: 75%;
+  height:auto;
+  display: flex;
+  
+}
+
+.controls {
+  /*align divs side-by-side : https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b*/
+  flex: 1;
+}
+
+
+.text-controls{
+  
+  vertical-align: middle;
+  border: 1px solid black;
+  box-shadow: 1px 2px 3px black
+  /*x, y, length of shadow, color (you can use hsl here) */
+  
+}
+
+button {
+  background:white;
+}
+
+button.active {
+  background-color: hsl(195, 100%, 75%);
+}
+
+
+/*holds the buttons that control the modes*/
+#header {
+  margin-left: 40px;
+  
+}
+
+/*from chat gpt: 
+can you give me css snippets to style buttons like tabs in a web browser*/
+
+/*these are the mode buttons*/
+
+
+#mode-buttons {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    border-radius: 5px 5px 0 0;
+}
+
+#mode-buttons.active {
+    background-color: hsl(195, 100%, 75%);
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+
+/*look at css animations for cool active events*/
+/*also look at doing border radius 
+will give things a nice soft rounded effect*/
+
+
+
+
+input[type='color'] {
+  border: 20px solid white;
+  background: white;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

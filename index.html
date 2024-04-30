@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Template from Dr.Compton's "rainbow-palm-guan" https://glitch.com/edit/#!/rainbow-palm-guan--->
+<meta charset="utf-8" />
+<html>
+  <head>
+    <title>jitterDraw</title>
+
+    <!-- <link rel="icon" href="css/img/favicon.ico"> -->
+    <!-- if styles aren't showing up, make sure to check that the css page is linked! -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <script  src="../vendor/p5.js"></script> -->
+    <!-- Vue and p5.js libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.14/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"
+    ></script>
+    <!--script needed for tweet button: https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/overview-->
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+    <!-- <script  src="../vendor/simplex-noise.js"></script> -->
+    
+
+    <!--Important, add new files here-->
+    <script src="utilities.js"></script> <!--Bag o tools and special functions-->
+    <script src="draw-text.js"></script>
+    <script src="draw-blob.js"></script>
+    <script src="draw-magic.js"></script>
+    <script src="draw-test.js"></script>
+    <script src="app.js"></script> <!--this file should be done last to prevent dependency errors!-->
+
+    <!--Search Engine Optimization junk-->
+    <link rel="canonical" href="https://jitterdraw.glitch.me/" />
+    <meta
+      name="description"
+      content="drawing tool for exploring your anxiety visually. what does your anxiety look like?"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="jitterDraw" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jitterdraw.glitch.me/" />
+    <meta
+      property="og:description"
+      content="drawing tool for exploring your anxiety visually. what does your anxiety look like?"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/786e4e46-1a4a-4088-8249-eb4e55e55ac2/jitterDraw%20logo%20(1).png?v=1692663269982"
+    />
+    <meta name="twitter:card" content="summary" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
